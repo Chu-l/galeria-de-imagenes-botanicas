@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
@@ -9,13 +11,15 @@ body {
 #sec1 {
     text-align: center;
     padding-bottom: 20px;
+    font-size: 1rem;
+    font-family: 'Libre Baskerville', serif;
 }
 #sec2 {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
-    width: 750px;
-    height: 450px;
+    margin: 3rem auto;
+    width: 45%;
+    
     justify-content: space-evenly;
     align-content: space-around;
     
@@ -27,6 +31,7 @@ body {
 .boxes {
     height: 178px;
     width: 210px;
+    margin: 0.5rem;
     
 }
 .dib {
